@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* .hero{
+    background-image: url(https://www.shutterstock.com/image-photo/various-asian-meals-on-rustic-260nw-1125066479.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+
+} */
+.bgc{
+background-color:  #e9a750;;
+}
+.pc{
+    color: #e9a750;
+}
+
+.my-container{
+   max-width: 1180px;
+   margin: 0 auto;
+
+}
+
+.my-btn{
+    @apply bg-[#e9a750] hover:bg-[#f58c03] text-white font-bold py-2 px-4 rounded
+}
